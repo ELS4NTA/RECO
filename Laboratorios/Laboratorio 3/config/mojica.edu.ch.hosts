@@ -1,0 +1,42 @@
+;
+; /etc/DNS/mojica.edu.ch.hosts file
+;
+;
+; SOA HEADER
+;
+@ IN SOA penguin.mojica.edu.ch.     root.mojica.edu.ch. (
+        2023021617      ; serial number
+        43200           ; refresh time
+        3600            ; retry time
+        432000          ; expiry time
+        86400           ; minimum Time To Live
+)
+;
+; Name Server(s)
+;
+mojica.edu.ch.              IN      NS      penguin.mojica.edu.ch.
+;
+; Mail Server(s)
+;
+mojica.edu.ch.              MX     10       mail.mojica.edu.ch.
+;
+; Address for localhost
+;
+localhost.mojica.edu.ch.    IN      A       127.0.0.1
+;
+; Addresses for the canonical names
+;
+penguin.mojica.edu.ch.      IN      A       10.2.77.138
+;
+www.mojica.edu.ch.          IN      A       10.2.77.134
+sirio.mojica.edu.ch.        IN      A       10.2.77.136
+canopus.mojica.edu.ch.      IN      A       10.2.77.138
+centauri.mojica.edu.ch.     IN      AAAA    2001::1
+mail.mojica.edu.ch.         IN      AAAA    2001::2 
+;
+; Aliases
+;
+brillo.mojica.edu.ch.       IN      CNAME   sirio.mojica.edu.ch.
+luz.mojica.edu.ch.          IN      CNAME   canopus.mojica.edu.ch.
+energia.mojica.edu.ch.      IN      CNAME   betelgeuse.mojica.edu.ch.
+; End of file

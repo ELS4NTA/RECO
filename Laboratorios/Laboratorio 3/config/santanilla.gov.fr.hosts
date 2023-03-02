@@ -1,0 +1,42 @@
+;
+; /etc/DNS/santanilla.gov.fr.hosts file
+;
+;
+; SOA HEADER
+;
+@ IN SOA cheetah.santanilla.gov.fr.     root.santanilla.gov.fr. (
+        2023022526      ; serial number
+        43200           ; refresh time
+        3600            ; retry time
+        432000          ; expiry time
+        86400           ; minimum Time To Live
+)
+;
+; Name Server(s)
+;
+santanilla.gov.fr.              IN      NS      cheetah.santanilla.gov.fr.
+;
+; Mail Server(s)
+;
+santanilla.gov.fr.              MX     10       mail.santanilla.gov.fr.
+;
+; Address for localhost
+;
+localhost.santanilla.gov.fr.    IN      A       127.0.0.1
+;
+; Addresses for the canonical names
+;
+cheetah.santanilla.gov.fr.      IN      A       10.2.77.135
+;
+www.santanilla.gov.fr.          IN      A       10.2.77.131
+tierra.santanilla.gov.fr.       IN      A       10.2.77.132
+marte.santanilla.gov.fr.        IN      A       10.2.77.133
+mail.santanilla.gov.fr.         IN      AAAA    2001::1
+saturno.santanilla.gov.fr.      IN      AAAA    2001::2 
+;
+; Aliases
+;
+vida.santanilla.gov.fr.         IN      CNAME   tierra.santanilla.gov.fr.
+rojo.santanilla.gov.fr.         IN      CNAME   marte.santanilla.gov.fr.
+anillos.santanilla.gov.fr.      IN      CNAME   saturno.santanilla.gov.fr.
+; End of file
