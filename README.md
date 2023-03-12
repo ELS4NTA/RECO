@@ -27,7 +27,7 @@ información en la sociedad moderna
 
 Angie Natalia Mojica Diaz - Daniel Antonio Santanilla Arias
 
-### Profesor que dictó el curso
+### Profesora que dictó el curso
 
 Claudia Patricia Santiago Cely
 
