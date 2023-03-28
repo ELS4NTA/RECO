@@ -2,10 +2,10 @@
 
 ### Introducción
 
-El flujo de información en las organizaciones modernas se realiza por medio de 
-las redes de datos y plataformas computacionalesn, el acceso a la información 
-desde la red local hacia la información a través de las redes de datos se 
-encuentran en todas partes y son el medio preferencial para el intercambio de 
+El flujo de información en las organizaciones modernas se realiza por medio de
+las redes de datos y plataformas computacionalesn, el acceso a la información
+desde la red local hacia la información a través de las redes de datos se
+encuentran en todas partes y son el medio preferencial para el intercambio de
 información en la sociedad moderna
 
 ### ¿Cómo se evaluó el curso?
